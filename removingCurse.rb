@@ -17,7 +17,10 @@ class Exorcize
     end
 end
 
-xoCapeta = Exorcize.new("world!")
+print("Digite a palavra mágica: ")
+toPuts = gets.chomp
+
+xoCapeta = Exorcize.new(toPuts)
 xoCapeta.removeCurse()
 
 #This code appears to kill an ant using a bazooka. But, is necessary to remove the "Hello, world"'s curse by the maximum eficienty.
